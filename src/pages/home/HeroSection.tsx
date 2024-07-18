@@ -3,7 +3,7 @@ import "./HomePage.css";
 const HeroSection = () => {
   return (
     <>
-      <section className="hero_section w-full px-4 lg:px-0">
+      <section className="hero_section w-full px-4 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto">
           <div className="content flex justify-between items-center min-h-[80vh] lg:min-h-screen">
             <div className="text-white max-w-lg">

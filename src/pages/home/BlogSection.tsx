@@ -2,7 +2,7 @@ const BlogSection = () => {
   return (
     <section className="w-full px-0 lg:px-0 bg-gray-200 py-8 sm:py-16 xl:px-0">
       <div className="max-w-6xl xl:max-w-7xl xxl:max-w-7xl mx-auto min-h-screen">
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-6">
+        <div className="grid grid-cols-1 gap-3 lg:grid-cols-4 xl:gap-6 px-0 sm:px-4 xl:px-0">
           <div className="blogs col-span-1 sm:col-span-3">
             {/* --------- BLOG 1 ---------  */}
             <div className="blog_1 mb-10 py-10 px-3 sm:px-6 bg-white">
@@ -176,13 +176,13 @@ const BlogSection = () => {
               </div>
             </div>
           </div>
-          <div className="about  w-full col-span-1">
+          <div className="about w-full col-span-1">
             {/* --------- ABOUT US ---------  */}
             <div className="about_me  mb-10 py-8 px-6 bg-white">
               <div className="content">
                 <h3 className="mb-2 text-xl font-semibold">ABOUT ME</h3>
                 <img
-                className="w-full"
+                  className="w-full"
                   src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/amory-about-us-avatar.jpg?v=1721331170"
                   alt="aboutme_image"
                 />
@@ -202,7 +202,7 @@ const BlogSection = () => {
                   POPULAR POSTS
                 </h3>
                 <div className="blogs_list">
-                  <div className="blog_box hover:bg-gray-200 cursor-pointer py-5 px-2 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-2">
+                  <div className="blog_box hover:bg-gray-200 cursor-pointer py-2 xl:py-5 px-2 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-2">
                     <div className="blog_img">
                       <img
                         className="object-cover h-full"
@@ -210,7 +210,7 @@ const BlogSection = () => {
                         alt=""
                       />
                     </div>
-                    <div className="blog_details py-2">
+                    <div className="blog_details py-1 xl:py-2">
                       <h3 className="text-sm font-medium">
                         LOVELY SEVENTIES STYLE IS BACK AGAIN
                       </h3>
