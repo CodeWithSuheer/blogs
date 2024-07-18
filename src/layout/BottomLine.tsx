@@ -6,6 +6,7 @@ const BottomLine = () => {
     { id: 4, title: "Health", path: "" },
     { id: 3, title: "Haircare", path: "" },
     { id: 2, title: "Skincare", path: "" },
+    { id: 2, title: "Bodycare", path: "" },
     { id: 5, title: "About", path: "about" },
     { id: 6, title: "Contact", path: "contact" },
   ];

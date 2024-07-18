@@ -22,7 +22,7 @@ const BlogSection = () => {
               {/* --------- IMAGE --------- */}
               <div className="img_cont my-6 w-full">
                 <img
-                  className="h-[60vh] w-full object-cover"
+                  className="h-[50vh] sm:h-[60vh] w-full object-cover"
                   src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/gallery-post-2.jpg?v=1721330707"
                   alt="blog"
                 />
@@ -79,7 +79,7 @@ const BlogSection = () => {
               {/* --------- IMAGE --------- */}
               <div className="img_cont my-6 w-full">
                 <img
-                  className="h-[60vh] w-full object-cover"
+                  className="h-[50vh] sm:h-[60vh] w-full object-cover"
                   src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/slideshow-post-3.jpg?v=1721330707"
                   alt="blog"
                 />
@@ -136,7 +136,7 @@ const BlogSection = () => {
               {/* --------- IMAGE --------- */}
               <div className="img_cont my-6 w-full">
                 <img
-                  className="h-[60vh] w-full object-cover"
+                  className="h-[50vh] sm:h-[60vh] w-full object-cover"
                   src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/18.jpg?v=1721330707"
                   alt="blog"
                 />
@@ -182,6 +182,7 @@ const BlogSection = () => {
               <div className="content">
                 <h3 className="mb-2 text-xl font-semibold">ABOUT ME</h3>
                 <img
+                className="w-full"
                   src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/amory-about-us-avatar.jpg?v=1721331170"
                   alt="aboutme_image"
                 />
